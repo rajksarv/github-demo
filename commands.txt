@@ -1,0 +1,23 @@
+Setting User name in Git:
+git config --global user.name "Sarvesh Rajkumar"
+Setting email id in Git:
+git config --global user.email "sarvesh2@illinois.edu"
+To confirm the above two:
+Git config --global --list
+Cloning:
+Git clone url
+Status:
+Git status (tells us which branch we are on)
+To add a file to the staging area:
+Git add 'filename'
+(After this if you do git status it tells you there's new file ready to be committed in the staging area)
+Committing the git repo:
+Git commit -m "Add a message here"
+Pushing to remote repository:
+Git push origin master
+Getting a history of all changes committed to the current branch:
+Git log
+Git log --oneline
+Git log -p
+
+
